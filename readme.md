@@ -71,7 +71,7 @@ Steps I took to build out this query.
     * [Docker Yaml file](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
   
   
- 2. **Added tables laid out in the assignent file and insterted data records**
+ 2. **Added tables from the assignent file and insterted data records**
     * [SQL table creation and inserts](https://github.com/stumptowndoug/muckrack_assignment/tree/main/sql)
 
  3. **Tested SQL query against given data inputs**
