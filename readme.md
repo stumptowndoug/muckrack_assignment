@@ -65,7 +65,7 @@ Please note that the hubspot table name is slightly different than laid out in t
 
 
 ## Doug Dement - Appendix information
-Below shows the steps I took to build out this query.
+Steps I took to build out this query.
 
  1. **Stood up an instance of postgres using docker**
     * [Docker Yaml file](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
