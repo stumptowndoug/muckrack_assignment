@@ -6,7 +6,7 @@ Write a SQL query (any dialect is fine) that combines data from these two source
 ![Question output](https://muckrack.s3.us-west-2.amazonaws.com/result.png)
 
 
-## Doug Dement SQL Answer
+## Doug Dement - SQL Answer
 
 ```SQL
 ------------------------------------------------------------------------
