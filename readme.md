@@ -67,7 +67,7 @@ The answer came back as expected with one exception, I've calculated the unix ti
 Below shows the steps I took to build out this query.  Admitidly, it's overkill for the request but I thought it would be fun to build out.
 
  1. **Stood up an instance of postgres using docker**
-    *[Docker](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
+    * [Docker](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
   
   
  2. **How does square footage and year built impact the performance of direct mail, if at all?**
