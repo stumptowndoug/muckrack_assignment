@@ -56,6 +56,8 @@ order by
 2 asc --order by earlist date of interest
 ```
 
+![SQL Result](https://muckrack.s3.us-west-2.amazonaws.com/query_results.png)
+
 
 
 
