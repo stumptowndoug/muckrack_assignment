@@ -64,13 +64,16 @@ The answer came back as expected with one exception, I've calculated the unix ti
 
 
 ## Doug Dement - Appendix information
-Below shows the steps I took to build out this query.  Admitidly, it's overkill for the request but I thought it would be fun to build out.
+Below shows the steps I took to build out this query.
 
  1. **Stood up an instance of postgres using docker**
-    * [Docker](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
+    * [Docker Yaml file](https://github.com/stumptowndoug/muckrack_assignment/blob/main/docker-compose.yml)
   
   
- 2. **How does square footage and year built impact the performance of direct mail, if at all?**
-    * There is very little correlation from square footage or year built within response rates.
+ 2. **Added tables laid out in the assignent file and insterted data records**
+    * [SQL table creation and inserts](https://github.com/stumptowndoug/muckrack_assignment/tree/main/sql)
+
+ 3. **Tested SQL query against given data inputs**
+    * [SQL Answer](https://github.com/stumptowndoug/muckrack_assignment/blob/main/sql/pitch_rec_data.sql)
 
 
