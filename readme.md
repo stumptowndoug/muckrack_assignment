@@ -21,9 +21,9 @@ ct.email,
 to_timestamp(property_recc_interest/1000) as created_at,
 null AS tag,
 case
-	when property_recc_interest is not null
-	then true
-	else false
+  when property_recc_interest is not null
+  then true
+  else false
 end as pitch_rec
 
 from
@@ -37,9 +37,9 @@ cn.email,
 cn.created_at,
 cnt.tag,
 case
-	when cnt.tag in('recc-interest')
-	then true
-	else false
+  when cnt.tag in('recc-interest')
+  then true
+  else false
 end as pitch_rec
 
 from
