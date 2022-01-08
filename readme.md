@@ -57,7 +57,7 @@ order by
 ![SQL Result](https://muckrack.s3.us-west-2.amazonaws.com/query_results.png)
 
 ## Doug Dement - SQL Notes
-Answer came back as expected for one exception, the unix time shown in the document I've calculated as being in the year 2018.  It's possible i've missed how the date is actually stored but I verified this date on epochconverter.com and it also showed 2018.
+The answer came back as expected for one exception, I've calculated the unix timestamp from hubspot (1534101377000) as being in the year 2018. It's possible I've interpreted this incorreclty but this date on epochconverter.com and also showed 2018.
 
 ![Epoch Calc](https://muckrack.s3.us-west-2.amazonaws.com/epoch_calc.png)
 
