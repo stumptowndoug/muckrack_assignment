@@ -8,7 +8,7 @@ Write a SQL query (any dialect is fine) that combines data from these two source
 
 ```SQL
 ------------------------------------------------------------------------
--- QUERY TO SHOW EVERYONE WHO EXPRESSED INTERESTED IN TRYING PITCH RECS
+-- QUERY TO SHOW EVERYONE WHO EXPRESSED INTEREST IN TRYING PITCH RECS
 ------------------------------------------------------------------------
 
 with total_data as
@@ -57,11 +57,11 @@ order by
 ![SQL Result](https://muckrack.s3.us-west-2.amazonaws.com/query_results.png)
 
 ## Doug Dement - SQL Notes
-The answer came back as expected with one exception, I've calculated the unix timestamp from hubspot (1534101377000) as being in the year 2018. It's possible I've interpreted this incorreclty but the date on epochconverter.com also showed 2018.
+The answer came back as expected with one exception, I've calculated the unix timestamp from hubspot (1534101377000) as being in the year 2018. It's possible I've interpreted this incorrectly but the date on epochconverter.com also showed 2018.
 
 ![Epoch Calc](https://muckrack.s3.us-west-2.amazonaws.com/epoch_calc.png)
 
-Please note that the hubspot table name is slightly different than laid out in the assignment document. This is simply how I setup the structure to test the code in postgres.
+Please note that the hubspot table name is slightly different than laid out in the assignment document. This is simply how I set up the structure to test the code in postgres.
 
 
 ## Doug Dement - Appendix information
