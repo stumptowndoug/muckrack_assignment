@@ -61,6 +61,7 @@ The answer came back as expected with one exception, I've calculated the unix ti
 
 ![Epoch Calc](https://muckrack.s3.us-west-2.amazonaws.com/epoch_calc.png)
 
+Also due note that the hubspot table name is slightly different than laid out in the assignment document. This is simply how I setup the structure to test the code in postgres.
 
 
 ## Doug Dement - Appendix information
