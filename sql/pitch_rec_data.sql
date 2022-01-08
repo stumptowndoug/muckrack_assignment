@@ -3,34 +3,28 @@ with total_data as
 -- query to select hubspot contact 
 select
 ct.email,
-to_timestamp(property_recc_interest/1000) as created_at,
-null AS tag,
-case
-	when property_recc_interest is not null
-	then true
-	else false
-end as pitch_rec
+to_timestamp(property_recc_interest/1000) as created_at
 
 from
 muckrack.hubspot_contact ct
+	
+where
+property_recc_interest is not null
 
 union all
 	
 -- union conversation details
 select
 cn.email,
-cn.created_at,
-cnt.tag,
-case
-	when cnt.tag in('recc-interest')
-	then true
-	else false
-end as pitch_rec
+cn.created_at
 
 from
 muckrack.conversation cn
 left join muckrack.conversation_tag cnt
 	on cn.id = cnt.conversation_id
+
+where
+cnt.tag in('recc-interest')
 )
 
 select
@@ -39,9 +33,6 @@ MIN(created_at) as expressed_interest_at --select min date in case there are dup
 
 from
 total_data
-
-where
-pitch_rec = true --only include records with interest in pitch rec
 
 group by
 1
