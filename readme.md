@@ -3,8 +3,6 @@
 ## Assignment Question:
 Write a SQL query (any dialect is fine) that combines data from these two sources that lists everyone who has expressed interest in trying Pitch Recs and when they first expressed that interest.
 
-![Question output](https://muckrack.s3.us-west-2.amazonaws.com/result.png)
-
 
 ## Doug Dement - SQL Answer
 
@@ -57,6 +55,11 @@ order by
 ```
 
 ![SQL Result](https://muckrack.s3.us-west-2.amazonaws.com/query_results.png)
+
+## Doug Dement - SQL Notes
+Answer came back as expected for one exception, the unix time shown in the document I've calculated as being in the year 2018.  It's possible i've missed how the date is actually stored but I verified this date on epochconverter.com and it also showed 2018.
+
+![Epoch Calc](https://muckrack.s3.us-west-2.amazonaws.com/epoch_calc.png)
 
 
 
